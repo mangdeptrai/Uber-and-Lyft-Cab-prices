@@ -1,0 +1,1 @@
+SELECT * FROM uber_lyft_db.weather;
