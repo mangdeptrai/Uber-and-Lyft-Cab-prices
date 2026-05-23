@@ -102,7 +102,7 @@ with col2:
     # Tạo container chứa kết quả dự đoán
     with st.container():
         if predict_btn:
-            with st.spinner('Hệ thống AI đang phân tích dữ liệu thị trường...'):
+            with st.spinner('Hệ thống đang phân tích dữ liệu thị trường...'):
                 
                 # Khôi phục các giá trị chuẩn hóa ngược từ PCA thời tiết
                 if weather_state == "Trời quang đãng / Nắng":
